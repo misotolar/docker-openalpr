@@ -1,4 +1,4 @@
-FROM ubuntu:noble-20240605
+FROM ubuntu:noble-20241015
 
 LABEL maintainer="michal@sotolar.com"
 
@@ -48,7 +48,6 @@ RUN set -ex; \
     cmake \
         -DWITH_TESTS=OFF \
         -DWITH_DAEMON=OFF \
-        -DWITH_UTILITIES=OFF \
         -DWITH_BINDING_GO=OFF \
         -DWITH_BINDING_JAVA=OFF \
         -DWITH_BINDING_PYTHON=OFF \
