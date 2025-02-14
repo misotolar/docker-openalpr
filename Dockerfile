@@ -1,4 +1,4 @@
-FROM ubuntu:noble-20241015
+FROM ubuntu:noble-20250127
 
 LABEL maintainer="michal@sotolar.com"
 
